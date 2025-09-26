@@ -1,0 +1,20 @@
+[32mINFO    [0m requester.requester:requester.py:89 [92mpytest tests/api/test_pet.py::test_get_pet_by_id (setup)[0m
+curl -X POST 'https://petstore3.swagger.io/api/v3/pet' \
+-H 'User-Agent: python-requests/2.32.4' \
+-H 'Accept-Encoding: gzip, deflate' \
+-H 'Accept: application/json' \
+-H 'Connection: keep-alive' \
+-H 'Content-Type: application/json' \
+-H 'Content-Length: 146' \
+-d '{"id": 2936, "category": {"id": 1, "name": "Dogs"}, "name": "Dog-70", "photoUrls": [], "tags": [{"id": 1, "name": "cute"}], "status": "available"}'
+[32mINFO    [0m requester.requester:requester.py:89 [92mpytest tests/api/test_pet.py::test_get_pet_by_id[0m
+curl -X GET 'https://petstore3.swagger.io/api/v3/pet/2936' \
+-H 'User-Agent: python-requests/2.32.4' \
+-H 'Accept-Encoding: gzip, deflate' \
+-H 'Accept: application/json' \
+-H 'Connection: keep-alive' \
+-H 'Content-Type: application/json' \
+
+[32mINFO    [0m requester.requester:requester.py:98 	RESPONSE:
+STATUS_CODE: [91m404[0m
+DATA: [91mPet not found[0m

@@ -1,0 +1,11 @@
+[32mINFO    [0m requester.requester:requester.py:89 [92mpytest tests/api/test_store.py::test_get_inventory[0m
+curl -X GET 'https://petstore3.swagger.io/api/v3/store/inventory' \
+-H 'User-Agent: python-requests/2.32.4' \
+-H 'Accept-Encoding: gzip, deflate' \
+-H 'Accept: application/json' \
+-H 'Connection: keep-alive' \
+-H 'Content-Type: application/json' \
+
+[32mINFO    [0m requester.requester:requester.py:98 	RESPONSE:
+STATUS_CODE: [91m500[0m
+DATA: [91m{"code":500,"message":"There was an error processing your request. It has been logged (ID: fe34b944fffa0dcb)"}[0m

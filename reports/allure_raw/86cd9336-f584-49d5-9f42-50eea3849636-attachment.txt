@@ -1,0 +1,25 @@
+[32mINFO    [0m requester.requester:requester.py:89 [92mpytest tests/api/test_pet.py::test_delete_pet (setup)[0m
+curl -X POST 'https://petstore3.swagger.io/api/v3/pet' \
+-H 'User-Agent: python-requests/2.32.4' \
+-H 'Accept-Encoding: gzip, deflate' \
+-H 'Accept: application/json' \
+-H 'Connection: keep-alive' \
+-H 'Content-Type: application/json' \
+-H 'Content-Length: 147' \
+-d '{"id": 4856, "category": {"id": 1, "name": "Dogs"}, "name": "Dog-100", "photoUrls": [], "tags": [{"id": 1, "name": "cute"}], "status": "available"}'
+[32mINFO    [0m requester.requester:requester.py:89 [92mpytest tests/api/test_pet.py::test_delete_pet[0m
+curl -X DELETE 'https://petstore3.swagger.io/api/v3/pet/4856' \
+-H 'User-Agent: python-requests/2.32.4' \
+-H 'Accept-Encoding: gzip, deflate' \
+-H 'Accept: application/json' \
+-H 'Connection: keep-alive' \
+-H 'Content-Type: application/json' \
+-H 'Content-Length: 0' \
+
+[32mINFO    [0m requester.requester:requester.py:89 [92mpytest tests/api/test_pet.py::test_delete_pet[0m
+curl -X GET 'https://petstore3.swagger.io/api/v3/pet/4856' \
+-H 'User-Agent: python-requests/2.32.4' \
+-H 'Accept-Encoding: gzip, deflate' \
+-H 'Accept: application/json' \
+-H 'Connection: keep-alive' \
+-H 'Content-Type: application/json' \

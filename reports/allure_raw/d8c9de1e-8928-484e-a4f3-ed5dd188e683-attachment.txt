@@ -1,0 +1,9 @@
+[32mINFO    [0m requester.requester:requester.py:89 [92mpytest tests/api/test_store.py::test_create_order[0m
+curl -X POST 'https://petstore3.swagger.io/api/v3/store/order' \
+-H 'User-Agent: python-requests/2.32.4' \
+-H 'Accept-Encoding: gzip, deflate' \
+-H 'Accept: application/json' \
+-H 'Connection: keep-alive' \
+-H 'Content-Type: application/json' \
+-H 'Content-Length: 117' \
+-d '{"id": 3063, "petId": 9, "quantity": 1, "shipDate": "2025-09-22T12:00:00.000Z", "status": "placed", "complete": true}'

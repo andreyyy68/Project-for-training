@@ -1,0 +1,11 @@
+[32mINFO    [0m requester.requester:requester.py:89 [92mpytest tests/api/test_store.py::test_get_order_by_id[0m
+curl -X GET 'https://petstore3.swagger.io/api/v3/store/order/5366' \
+-H 'User-Agent: python-requests/2.32.4' \
+-H 'Accept-Encoding: gzip, deflate' \
+-H 'Accept: application/json' \
+-H 'Connection: keep-alive' \
+-H 'Content-Type: application/json' \
+
+[32mINFO    [0m requester.requester:requester.py:98 	RESPONSE:
+STATUS_CODE: [91m404[0m
+DATA: [91mOrder not found[0m

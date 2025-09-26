@@ -1,0 +1,13 @@
+[32mINFO    [0m requester.requester:requester.py:89 [92mpytest tests/api/test_register.py::test_create_user_missing_username[0m
+curl -X POST 'https://petstore3.swagger.io/api/v3/user' \
+-H 'User-Agent: python-requests/2.32.4' \
+-H 'Accept-Encoding: gzip, deflate' \
+-H 'Accept: application/json' \
+-H 'Connection: keep-alive' \
+-H 'Content-Type: application/json' \
+-H 'Content-Length: 155' \
+-d '{"id": 97475, "firstName": "Test", "lastName": "User", "email": "user97475@example.com", "password": "password123", "phone": "1234567890", "userStatus": 1}' 
+
+[32mINFO    [0m requester.requester:requester.py:98 	RESPONSE:
+STATUS_CODE: [91m500[0m
+DATA: [91m{"code":500,"message":"There was an error processing your request. It has been logged (ID: 327057027ab061ae)"}[0m

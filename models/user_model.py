@@ -1,16 +1,11 @@
+from pydantic import BaseModel
 
-
-# Модели для работы с пользователями
-
-# регистрация пользователя
-class UserRegister(Base):
-    pass
-
-# авторизация пользователя
-class UserLogin(Base):
-    pass
-
-# выход из системы
-class UserOut(Base):
-    pass
-
+class UserModel(BaseModel):
+    id: int
+    username: str
+    firstName: str
+    lastName: str
+    email: str
+    password: str
+    phone: str
+    userStatus: int
